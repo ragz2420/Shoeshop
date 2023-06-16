@@ -13,11 +13,11 @@ return (
 	<Router>
 	<Navbar />
 	<Routes>
-		<Route path='/' exact component={Home} />
-		<Route path='/about' component={About} />
-		<Route path='/product' component={Product} />
-		<Route path='/Sales' component={Sales} />
-		<Route path='/sign-up' component={SignUp} />
+		<Route path='/' element={<Home/>} />
+		<Route path='/about' element={<About/>} />
+		<Route path='/product' element={<Product/>} />
+		<Route path='/Sales' element={<Sales/>} />
+		<Route path='/sign-up' element={<SignUp/>} />
 	</Routes>
 	</Router>
 );
